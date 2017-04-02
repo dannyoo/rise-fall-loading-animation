@@ -1,4 +1,4 @@
-# rise-fall-loading-animation
+# A Simple Rise Fall Loading Letters Animation
 A simple loading animation inspired by Vitaly Silkin gif animation on dribble.
 ![Gif of Rise and Fall Amination Concept](https://d13yacurqjgara.cloudfront.net/users/563824/screenshots/3405970/rise_fall.gif)  
 
