@@ -1,0 +1,55 @@
+span:nth-child(7n+1) {
+    animation: 2.3s linear 0.3s infinite alternate rise;
+}
+
+span:nth-child(7n+2) {
+    animation: 2.3s linear 0.4s infinite alternate rise;
+}
+
+span:nth-child(7n+3) {
+    animation: 2.3s linear 0.5s infinite alternate rise;
+}
+
+span:nth-child(7n+4) {
+    animation: 2.3s linear 0.6s infinite alternate rise;
+}
+
+span:nth-child(7n+5) {
+    animation: 2.3s linear 0.7s infinite alternate rise;
+}
+
+span:nth-child(7n+6) {
+    animation: 2.3s linear 0.8s infinite alternate rise;
+}
+
+span:nth-child(7n+7) {
+    animation: 2.3s linear 0.9s infinite alternate rise;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+div span {
+    margin-right: .2em;
+    font-size: 3em;
+    color: white;
+    font-family: sans-serif;
+}
+
+@keyframes rise {
+    0%,
+    100% {
+        text-shadow: 0px 0px 0px white;
+    }
+    50% {
+        text-shadow: 0px 11px 20px black;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
